@@ -1,12 +1,13 @@
 import React, { Fragment } from 'react';
 import './App.scss';
 import Nabvar from './components/Navbar/Nabvar';
+import TourList from './components/TourList';
 
 function App() {
   return (
     <Fragment>
       <Nabvar />
-      <h1>My current App</h1>
+      <TourList />
     </Fragment>
   );
 }

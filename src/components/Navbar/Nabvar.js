@@ -1,28 +1,30 @@
 import React from 'react';
 import logo from '../../logo.svg';
+import './navbar.scss';
+
 
 const Nabvar = () => {
     return (
-        <navbar className="navbar">
+        <nav className='navbar'>
             <img src={logo} alt="logo" />
-            <ul className="nav-link">
+            <ul className="nav-links">
                 <li>
-                    <a href="/">
+                    <a className="nav-link" href="/">
                         Home
                     </a>
                 </li>
                 <li>
-                    <a href="/">
+                    <a className="nav-link" href="/">
                         About
                     </a>
                 </li>
                 <li>
-                    <a href="/">
+                    <a className='active nav-link' href="/">
                         Tours
                     </a>
                 </li>
             </ul>
-        </navbar>
+        </nav>
     )
 }
 
